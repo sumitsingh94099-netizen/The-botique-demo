@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Heritage Ethnic Studio | Surat Textile Catalogue</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #fdfbf7; color: #1f1f1f; }
+        h1, h2, h3, .royal-font { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-[#fdfbf7] text-stone-900">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-rose-950 text-amber-200 text-xs text-center py-2 px-4 font-semibold tracking-wide">
+        ✨ SURAT'S PREMIER DESIGNER STUDIO | WORLDWIDE SHIPPING & WHOLESALE AVAILABLE ✨
+    </div>
+
+    <!-- Header -->
+    <header class="sticky top-0 z-40 bg-[#fdfbf7]/95 backdrop-blur-md border-b border-amber-900/15 px-5 py-4 flex justify-between items-center">
+        <div>
+            <h1 class="text-2xl font-bold royal-font text-rose-950 tracking-tight">ROYAL HERITAGE</h1>
+            <p class="text-[11px] text-stone-500 uppercase tracking-widest">Bridal & Saree Studio • Surat</p>
+        </div>
+        <a href="https://wa.me/919876543210?text=Hi%20Royal%20Heritage!%20I%20want%20to%20book%20a%20Live%20Video%20Call%20Shopping%20session." target="_blank" class="bg-rose-900 hover:bg-rose-950 text-amber-100 text-xs font-bold px-3.5 py-2.5 rounded-lg flex items-center gap-1.5 shadow">
+            <i class="fas fa-video"></i> Video Call
+        </a>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="relative mx-4 mt-4 rounded-2xl overflow-hidden bg-rose-950 text-white p-6 md:p-12 shadow-xl" style="background-image: linear-gradient(to right, rgba(69, 10, 10, 0.92), rgba(69, 10, 10, 0.65)), url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80'); background-size: cover; background-position: center;">
+        <div class="max-w-lg">
+            <span class="bg-amber-500/20 border border-amber-400 text-amber-300 text-[10px] font-bold px-2.5 py-1 rounded uppercase tracking-wider">New Wedding Collection 2026</span>
+            <h2 class="text-3xl md:text-5xl font-bold royal-font mt-3 leading-tight text-amber-50">Handcrafted Surti Sarees & Bridal Lehengas</h2>
+            <p class="text-xs md:text-sm text-rose-100 mt-2">Direct Factory & Boutique Rates. Select any design below to get instant price & fabric details on WhatsApp.</p>
+        </div>
+    </section>
+
+    <!-- Category Tabs -->
+    <div class="flex gap-2 overflow-x-auto px-4 py-5">
+        <button onclick="filterItems('all')" class=" bg-rose-900 text-white text-xs font-bold px-4 py-2.5 rounded-full whitespace-nowrap shadow">All Collection</button>
+        <button onclick="filterItems('lehenga')" class="bg-stone-200 hover:bg-rose-900 hover:text-white text-stone-800 text-xs font-bold px-4 py-2.5 rounded-full whitespace-nowrap transition">👰 Bridal Lehengas</button>
+        <button onclick="filterItems('saree')" class="bg-stone-200 hover:bg-rose-900 hover:text-white text-stone-800 text-xs font-bold px-4 py-2.5 rounded-full whitespace-nowrap transition">✨ Designer Sarees</button>
+        <button onclick="filterItems('kurti')" class="bg-stone-200 hover:bg-rose-900 hover:text-white text-stone-800 text-xs font-bold px-4 py-2.5 rounded-full whitespace-nowrap transition">🌸 Heavy Gown & Suits</button>
+    </div>
+
+    <!-- Product Catalogue Grid -->
+    <main class="px-4 max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 pb-12">
+
+        <!-- Product 1 -->
+        <div class="cat-card bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm flex flex-col justify-between" data-type="lehenga">
+            <div>
+                <div class="relative h-64 bg-stone-100">
+                    <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80" alt="Bridal Lehenga" class="w-full h-full object-cover">
+                    <span class="absolute top-3 left-3 bg-rose-950 text-amber-200 text-[10px] font-bold px-2.5 py-1 rounded">CODE: #SRT-101</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-bold text-lg royal-font text-rose-950">Crimson Velvet Zardosi Bridal Lehenga</h3>
+                    <p class="text-xs text-stone-500 mt-1">Fabric: Pure Micro Velvet • Heavy Handwork & Double Dupatta</p>
+                    <div class="mt-3 flex items-center justify-between">
+                        <span class="text-xs font-semibold text-amber-800 bg-amber-50 px-2 py-1 rounded border border-amber-200">Retail & Wholesale</span>
+                        <span class="text-sm font-bold text-rose-900"> Starting ₹8,500</span>
+                    </div>
+                </div>
+            </div>
+            <div class="px-4 pb-4">
+                <a href="https://wa.me/919876543210?text=Namaste!%20I%20want%20to%20inquire%20about%20*Design%20Code%20%23SRT-101*%20(Crimson%20Velvet%20Bridal%20Lehenga).%20Please%20share%20exact%20price%20and%20more%20photos." target="_blank" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2.5 rounded-xl text-xs flex items-center justify-center gap-2 shadow transition">
+                    <i class="fab fa-whatsapp text-base"></i> Ask Price & Photos on WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="cat-card bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm flex flex-col justify-between" data-type="saree">
+            <div>
+                <div class="relative h-64 bg-stone-100">
+                    <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80" alt="Silk Saree" class="w-full h-full object-cover">
+                    <span class="absolute top-3 left-3 bg-rose-950 text-amber-200 text-[10px] font-bold px-2.5 py-1 rounded">CODE: #SRT-102</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-bold text-lg royal-font text-rose-950">Royal Banarasi Kanjivaram Silk Saree</h3>
+                    <p class="text-xs text-stone-500 mt-1">Fabric: Pure Soft Silk • Rich Golden Zari Pallu with Blouse Piece</p>
+                    <div class="mt-3 flex items-center justify-between">
+                        <span class="text-xs font-semibold text-green-800 bg-green-50 px-2 py-1 rounded border border-green-200">In Stock (6 Colors)</span>
+                        <span class="text-sm font-bold text-rose-900">Starting ₹2,450</span>
+                    </div>
+                </div>
+            </div>
+            <div class="px-4 pb-4">
+                <a href="https://wa.me/919876543210?text=Namaste!%20I%20want%20to%20inquire%20about%20*Design%20Code%20%23SRT-102*%20(Royal%20Banarasi%20Silk%20Saree).%20Please%20share%20all%206%20colors%20and%20price." target="_blank" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2.5 rounded-xl text-xs flex items-center justify-center gap-2 shadow transition">
+                    <i class="fab fa-whatsapp text-base"></i> Ask Price & Colors on WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="cat-card bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm flex flex-col justify-between" data-type="kurti">
+            <div>
+                <div class="relative h-64 bg-stone-100">
+                    <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=600&q=80" alt="Designer Gown" class="w-full h-full object-cover">
+                    <span class="absolute top-3 left-3 bg-rose-950 text-amber-200 text-[10px] font-bold px-2.5 py-1 rounded">CODE: #SRT-103</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-bold text-lg royal-font text-rose-950">Pastel Organza Mirror-Work Reception Gown</h3>
+                    <p class="text-xs text-stone-500 mt-1">Fabric: Pure Organza • Real Mirror & Sequence Work (Sizes: M to XXL)</p>
+                    <div class="mt-3 flex items-center justify-between">
+                        <span class="text-xs font-semibold text-amber-800 bg-amber-50 px-2 py-1 rounded border border-amber-200">Bestseller</span>
+                        <span class="text-sm font-bold text-rose-900">Starting ₹3,200</span>
+                    </div>
+                </div>
+            </div>
+            <div class="px-4 pb-4">
+                <a href="https://wa.me/919876543210?text=Namaste!%20I%20want%20to%20inquire%20about%20*Design%20Code%20%23SRT-103*%20(Pastel%20Organza%20Reception%20Gown).%20Please%20share%20details." target="_blank" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2.5 rounded-xl text-xs flex items-center justify-center gap-2 shadow transition">
+                    <i class="fab fa-whatsapp text-base"></i> Ask Price & Photos on WhatsApp
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Video Call Shopping Banner -->
+    <section class="mx-4 mb-10 max-w-4xl md:mx-auto bg-rose-950 text-amber-50 rounded-2xl p-6 text-center shadow-lg">
+        <h3 class="text-2xl font-bold royal-font text-amber-300">Want to See Full Collection Live? 📹</h3>
+        <p class="text-xs text-rose-100 mt-2 max-w-md mx-auto">Book a 15-Minute WhatsApp Video Call with our Surat store team to see 500+ latest sarees and bridal designs live!</p>
+        <a href="https://wa.me/919876543210?text=Hi!%20I%20want%20to%20schedule%20a%20WhatsApp%20Video%20Call%20to%20see%20your%20latest%20collection." target="_blank" class="mt-4 inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-500 text-rose-950 font-bold text-xs px-6 py-3 rounded-xl shadow">
+            <i class="fas fa-video"></i> Schedule Free Video Call Now
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-stone-900 text-stone-400 text-xs py-8 px-5 text-center">
+        <p class="font-bold text-white text-sm royal-font tracking-wide">ROYAL HERITAGE ETHNIC STUDIO</p>
+        <p class="mt-1">Shop No. 112-115, Lower Ground, Ring Road / Ghod Dod Road, Surat</p>
+        <p class="mt-1">Wholesale & Retail Inquiries: +91 98765 43210</p>
+    </footer>
+
+    <script>
+        function filterItems(type) {
+            const cards = document.querySelectorAll('.cat-card');
+            cards.forEach(card => {
+                if (type === 'all' || card.getAttribute('data-type') === type) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
